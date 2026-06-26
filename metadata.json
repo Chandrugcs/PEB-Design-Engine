@@ -1,0 +1,6 @@
+{
+  "name": "PEB Sizing & Optimization Engine",
+  "description": "Interactive Pre-Engineered Steel Building (PEB) design, optimization, and mechanical drafting tool under IS 800:2007 structural code standards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
