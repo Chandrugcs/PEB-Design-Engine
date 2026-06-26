@@ -1,0 +1,13 @@
+#!/bin/bash
+# Build single HTML file with vite-plugin-singlefile
+
+echo "Building single HTML file..."
+npm run build
+
+if [ -f "dist/index.html" ]; then
+  echo "✅ Single HTML file created at: dist/index.html"
+  echo "📦 File size: $(du -h dist/index.html | cut -f1)"
+else
+  echo "❌ Build failed"
+  exit 1
+fi
